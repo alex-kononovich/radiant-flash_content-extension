@@ -7,7 +7,7 @@ begin
     gem.email = "flskif@gmail.com"
     gem.homepage = "http://github.com/flskif/radiant-flash_content-extension"
     gem.authors = ["Alex K"]
-    gem.add_dependency "radiant", ">= 9.0.0"
+    gem.add_dependency "radiant", ">= 0.9.0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
