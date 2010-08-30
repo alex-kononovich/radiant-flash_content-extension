@@ -16,6 +16,7 @@ class FlashContentExtension < Radiant::Extension
   # See your config/routes.rb file in this extension to define custom routes
   
   def activate
+    Page.send :include, FlashContentTags
     # tab 'Content' do
     #   add_item "Flash Content", "/admin/flash_content", :after => "Pages"
     # end
