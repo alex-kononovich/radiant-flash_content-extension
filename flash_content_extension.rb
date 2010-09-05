@@ -3,8 +3,8 @@
 
 class FlashContentExtension < Radiant::Extension
   version "1.0"
-  description "Describe your extension here"
-  url "http://yourwebsite.com/flash_content"
+  description "Provide libraries to insert flash content"
+  url "http://github.com/flskif/radiant-flash_content-extension"
   
   # extension_config do |config|
   #   config.gem 'some-awesome-gem

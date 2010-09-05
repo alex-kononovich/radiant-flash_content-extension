@@ -9,23 +9,30 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Alex K"]
-  s.date = %q{2010-08-27}
+  s.date = %q{2010-09-06}
   s.description = %q{Allows you to insert flash content}
   s.email = %q{flskif@gmail.com}
   s.extra_rdoc_files = [
     "README"
   ]
   s.files = [
-    "README",
+    ".gitignore",
+     "README",
      "Rakefile",
      "VERSION",
+     "app/models/flash_content_tags.rb",
      "config/locales/en.yml",
      "config/routes.rb",
      "cucumber.yml",
      "features/support/env.rb",
      "features/support/paths.rb",
      "flash_content_extension.rb",
+     "lib/swfobject.rb",
      "lib/tasks/flash_content_extension_tasks.rake",
+     "public/javascripts/radiant-flash_content-extension/swfobject.js",
+     "public/swf/radiant-flash_content-extension/expressInstall.swf",
+     "radiant-flash_content-extension.gemspec",
+     "spec/models/flash_content_tags_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
   ]
@@ -35,7 +42,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Flash Content Extension for Radiant CMS}
   s.test_files = [
-    "spec/spec_helper.rb"
+    "spec/models/flash_content_tags_spec.rb",
+     "spec/spec_helper.rb"
   ]
 
   if s.respond_to? :specification_version then
