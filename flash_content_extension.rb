@@ -2,7 +2,7 @@
 # require_dependency 'application_controller'
 
 class FlashContentExtension < Radiant::Extension
-  version "1.0"
+  version "0.1.1"
   description "Provide libraries to insert flash content"
   url "http://github.com/flskif/radiant-flash_content-extension"
   
